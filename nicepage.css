@@ -38292,7 +38292,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 24px auto;
+  margin: 24px 167px 24px auto;
 }
 
 .u-header .u-nav-1 {
@@ -38307,12 +38307,24 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
+    margin-right: 167px;
+  }
+
+  .u-header .u-nav-1 {
+    font-family: Rubik;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
     width: auto;
   }
 }
 
-
-
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-right: 105px;
+  }
+}
  .u-footer {
   background-image: none;
 }
